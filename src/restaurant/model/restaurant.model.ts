@@ -1,7 +1,7 @@
 import { Field, Float, ID, ObjectType } from "@nestjs/graphql";
 
 @ObjectType()
-export class Breakfast{
+export class Restaurant{
     @Field(()=>ID,{nullable: true})
     id?: string;
 
